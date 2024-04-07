@@ -4,7 +4,8 @@ import Search from '../../asserts/search.png';
 
 const AboutUsSection2 = () => {
   return (
-    <div className="two-column-section">
+    <div className='aboutUs-container'>
+       <div className="two-column-section">
       
       <div className="left-column">
         <h3>Digital Strategy Consulting</h3>
@@ -17,6 +18,8 @@ const AboutUsSection2 = () => {
       </div>
       
     </div>
+    </div>
+    
   );
 }
 

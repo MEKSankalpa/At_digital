@@ -4,7 +4,8 @@ import Computer from '../../asserts/computer.png';
 
 const AboutUsSection1 = () => {
   return (
-    <div className="two-column-section">
+   <div className='aboutUs-container'>
+     <div className="two-column-section">
       <div className="right-column">
         <img src={Computer} alt="Image" />
       </div>
@@ -15,6 +16,7 @@ const AboutUsSection1 = () => {
       </div>
       
     </div>
+   </div>
   );
 }
 

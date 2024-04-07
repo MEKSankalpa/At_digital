@@ -4,7 +4,7 @@ import logoImage from '../../asserts/logo.png';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <div className="footer">
       <div className="footer-container">
         <div className="footer-content">
           <div className='footer-logo'>
@@ -41,7 +41,7 @@ const Footer = () => {
             <a href="#">Terms & Conditions</a>
           </div>
       </div>
-    </footer>
+    </div>
   );
 };
 

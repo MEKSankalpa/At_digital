@@ -1,0 +1,52 @@
+.hidden-section {
+    left: 80px;
+    text-align: left;
+    width: 100%;
+    height: 306px;
+    background: linear-gradient(to right,#4DCA79, #1CBDDD);
+    padding:  24px 40px 32px 40px;
+    display: none;
+  }
+  
+  .hidden-section-text {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+  }
+  
+  .hidden-section-buttonHero {
+    width: auto;
+    height: 38px;
+    padding: 12px 20px;
+    gap: 8px;
+    border-radius: 4px;
+    background-color: #F28D35;
+    border: none;
+    box-shadow: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+
+  @media (max-width: 768px) {
+    .hidden-section {
+        display: block;
+        width: 768px;
+        height: 258px;
+      }
+  
+  }
+
+  
+  @media (max-width: 375px) {
+    .hidden-section {
+        width: 375px;
+        height: 294px;
+        padding-bottom: 80px;
+      }
+  }

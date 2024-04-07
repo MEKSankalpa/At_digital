@@ -9,7 +9,7 @@ const FQASection = () => {
       <div className="column-one">
         <div className='faq-column'>
            <div>
-              <span className='faq-column-p'>Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?</span>
+              <p className='faq-column-p-open'>Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?</p>
            </div>
            <div><span>-</span></div>
         </div>
@@ -17,18 +17,18 @@ const FQASection = () => {
         </div> 
  
         <div className="column-two">
-        <div className='faq-column'>
-           <div>
-              <span className='faq-column-p'>Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?</span>
-           </div>
-           <div><span>+</span></div>
-        </div>
-        </div> 
+         <div className='faq-column'>
+            <div>
+               <p className='faq-column-p'>Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?</p>
+            </div>
+            <div><span>+</span></div>
+         </div>
+         </div> 
       
         <div className="column-two">
         <div className='faq-column'>
            <div>
-              <span className='faq-column-p'>Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?</span>
+              <p className='faq-column-p'>Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?</p>
            </div>
            <div><span>+</span></div>
         </div>

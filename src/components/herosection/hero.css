@@ -1,6 +1,5 @@
 .hero {
-    width: 100%;
-    height: 700px;
+    height:700px;
     top: 77px;
     background-image: url('../../asserts/heroimage.png');
     background-size: cover;
@@ -8,8 +7,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    padding-bottom: 60px;
+    color: #FFFFFF;
+    padding: 40px 40px;
   }
   
   .hero-content {
@@ -58,4 +57,62 @@
     color: #FFFFFF;
     font-size: 14px;
     text-transform: uppercase;
+  }
+
+  @media (max-width: 1440px) {
+    .hero {
+      width: 1440px;
+      height: 700px;
+      background-size: 100% 100%;
+
+    }
+
+   
+
+    
+  }
+
+
+  @media (max-width: 1200px) {
+    .hero {
+      width: 1200px;
+      height: 700px;
+      background-size: 100% 100%;
+    }
+
+   
+
+    
+  }
+
+  @media (max-width: 768px) {
+    .hero {
+      width: 768px;
+      height: 448px;
+    }
+
+    .text-button-container {
+     display: none;
+    
+    }
+  
+
+    
+  }
+
+  
+  @media (max-width: 375px) {
+    .hero {
+      width: 375px;
+      height: 218.75px;
+      background-size: 100% 100%;
+    }
+
+    .text-button-container {
+  
+     
+    }
+  
+
+    
   }

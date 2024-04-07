@@ -1,10 +1,12 @@
 .faq-container {
     display: block;
-    width: 896px;
+    width: 1440px;
     height:auto;
-    margin: auto;
     text-align: center;
-    margin-bottom: 20px;
+    padding: 24px 40px 32px 40px;
+    background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
   }
   
   .faq-container h3{
@@ -17,28 +19,31 @@
   }
 
   .column-one{
-    width:896px;
+    width:840px;
     flex: 1;
     padding: 20px;
     text-align: left;
     background: #FAF8FF;
+    margin: auto;
+    margin-bottom: 20px;
   }
 
 
   .column-two{
-    width:896px;
+    width:840px;
     flex: 1;
     padding: 20px;
     margin-top: 13px;
     text-align: left;
     background: #FAF8FF;
+    margin: auto;
+    margin-bottom: 20px;
   }
 
   .faq-column{
-    width:896px;
+    width:840px;
     justify-content: space-between;
     display: flex;
-   
   }
 
   .faq-column span{
@@ -46,15 +51,22 @@
     border: none;
     font-size: 24px;
     font-weight: lighter;
+    color: #000000;
   }
 
   .faq-column-p{
+    padding: 0;
+    margin: 0;
     font-family: Inter;
-    font-size: 16px !important;
     font-weight: 500;
     line-height: 28px;
     text-align: left;
+    color: #000000 !important;
 
+  }
+
+  .faq-column-p-open{
+    color: #6B3CC9 !important;
   }
 
   .column-one p{
@@ -64,4 +76,80 @@
     line-height: 30px;
     text-align: left;
 
+  }
+
+  @media (max-width: 1440px) {
+    .faq-container {
+      width: 1440px;
+      height: auto;
+
+    }
+
+  }
+
+
+  @media (max-width: 1200px) {
+    .faq-container {
+      width: 1200px;
+      height: auto;
+    }
+
+ 
+    
+  }
+
+  @media (max-width: 768px) {
+    .faq-container {
+      width: 686px;
+      height: auto;
+    }
+
+
+    .column-one{
+      width:686px;
+      
+    }
+  
+  
+    .column-two{
+      width:686px;
+    
+    }
+  
+    .faq-column{
+      width:686px;
+    
+    }
+  
+
+    
+  }
+
+  
+  @media (max-width: 375px) {
+    .faq-container {
+      width: 334px;
+      height: auto;
+    }
+
+
+    .column-one{
+      width:334px;
+      
+    }
+  
+  
+    .column-two{
+      width:334px;
+    
+    }
+  
+    .faq-column{
+      width:334px;
+    
+    }
+
+   
+
+    
   }
