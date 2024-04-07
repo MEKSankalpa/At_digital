@@ -1,9 +1,11 @@
 import React from 'react';
 import logoImage from '../../asserts/logo.png';
 import '../navbar/navbar.css'
+import { toggleMenu } from './toggleMenu';
+
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar" id="myNav">
       <div className="logo">
       <img src={logoImage} alt="Logo" />
       </div>
@@ -13,6 +15,11 @@ const Navbar = () => {
         <a href="#">Services</a>
         <a href="#">Contact</a>
       </div>
+      <div className="hamburger-menu">
+    <div className="menu-icon" onClick={toggleMenu}>
+    <i className="fas fa-bars"></i>
+    </div>
+  </div>
     </nav>
   );
 }

@@ -34,6 +34,53 @@
   
   }
 
+  .menu-icon{
+    color: #FFFFFF;
+    font-size: 24px;
+  }
+
+  .hamburger-menu{
+    cursor: pointer;
+    display: none;
+  }
+
+  .navigation-menu {
+    position: absolute; 
+    z-index:1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto; 
+    background-color: #FFFFFF;
+    padding: 32px;
+    display: flex;
+  }
+
+  .disabled{
+    display: none;
+  }
+
+  .active{
+    display: block !important;
+    padding: 20px !important;
+    color: #000000 !important;
+  }
+
+  .active a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+    text-transform: uppercase;
+    display: block;
+
+  }
+  
+
   @media (max-width: 1440px) {
     .navbar {
       width: 1440px;
@@ -69,6 +116,9 @@
     }
    .links{
     display: none;
+   }
+   .hamburger-menu{
+    display: block;
    }
 
   }
